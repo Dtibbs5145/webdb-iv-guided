@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const Tracks = require('./data/tracks');
 
 router.get('/', async (req, res) => {
   try {
